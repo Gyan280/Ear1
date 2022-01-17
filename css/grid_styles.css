@@ -1,0 +1,18 @@
+/* rows */
+.pg-row {
+    display: flex;
+}
+
+/*Columns*/
+.pg-col-6 {
+    width: 50%;
+}
+
+
+/*Grid*/
+.pg-grid-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    /*grid-template-columns: 1fr ;*/
+}
